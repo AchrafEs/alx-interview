@@ -11,7 +11,6 @@ def pascal_triangle(n):
     pascal_triangle = [0] * n
 
     for i in range(n):
-        # This code snipet define and explained that  a row is  fill first and last idx with 1
         row = [0] * (i+1)
         row[0] = 1
         row[len(row) - 1] = 1
